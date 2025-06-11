@@ -1,0 +1,220 @@
+<trajectorys xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="1.4.1.1" xmlns="http://www.witsml.org/schemas/1series" xsi:schemaLocation="http://www.witsml.org/schemas/1series http://w3.energistics.org/schema/WITSML_v1.4.1.1_Data_Schema/witsml_v1.4.1.1_data/xsd_schemas/obj_trajectory.xsd">
+  <documentInfo>
+    <documentName>Trajectory</documentName>
+    <fileCreationInformation>
+      <fileCreationDate>2025-06-11T20:03:29.828Z</fileCreationDate>
+      <fileCreator>tmurray2@slb.com</fileCreator>
+    </fileCreationInformation>
+  </documentInfo>
+  <trajectory uidWell="3b4415ddb60a4354a69d6d9163e79456" uidWellbore="a07444658cd24abd95c5ff9c5e359137" uid="b5b3afb145d7538bafaa2db646e879f5">
+    <nameWell>Terre 0950</nameWell>
+    <nameWellbore>Terre 0950</nameWellbore>
+    <name>Trajectory</name>
+    <gridCorUsed uom="rad">-0.016611109830508397</gridCorUsed>
+    <aziVertSect uom="rad">2.9996955989856295</aziVertSect>
+    <dispNsVertSectOrig uom="m">0</dispNsVertSectOrig>
+    <dispEwVertSectOrig uom="m">0</dispEwVertSectOrig>
+    <aziRef>grid north</aziRef>
+    <trajectoryStation uid="station-1">
+      <typeTrajStation>tie in point</typeTrajStation>
+      <md uom="m">0</md>
+      <tvd uom="m">0</tvd>
+      <incl uom="rad">0</incl>
+      <azi uom="rad">3.2102756618778385</azi>
+      <dispNs uom="m">0</dispNs>
+      <dispEw uom="m">0</dispEw>
+      <vertSect uom="m">0</vertSect>
+      <gravTotalFieldReference uom="m/s2">9.817807424608986</gravTotalFieldReference>
+      <magTotalFieldReference uom="T">5.070108173259739E-05</magTotalFieldReference>
+      <magDipAngleReference uom="rad">1.2508102689130551</magDipAngleReference>
+      <geoModelUsed>HDGM 2025</geoModelUsed>
+      <commonData>
+        <itemState>plan</itemState>
+      </commonData>
+      <extensionNameValue uid="b5b3afb145d7538bafaa2db646e879f5">
+        <name>autoCalcGeoMag</name>
+        <value>True</value>
+        <dataType>boolean</dataType>
+      </extensionNameValue>
+      <extensionNameValue uid="b5b3afb145d7538bafaa2db646e879f5">
+        <name>dTimeGeoMagCalc</name>
+        <value>2022-06-20T04:00:00.0000000Z</value>
+        <dataType>dateTime</dataType>
+      </extensionNameValue>
+      <extensionNameValue uid="b5b3afb145d7538bafaa2db646e879f5">
+        <name>magDeclUsed</name>
+        <value uom="rad">0.008616211958414232</value>
+        <dataType>double</dataType>
+      </extensionNameValue>
+    </trajectoryStation>
+    <trajectoryStation uid="station-2">
+      <typeTrajStation>unknown</typeTrajStation>
+      <md uom="m">2400.8906513513784</md>
+      <tvd uom="m">2400.8906513513784</tvd>
+      <incl uom="rad">0</incl>
+      <azi uom="rad">3.2102756618778385</azi>
+      <dispNs uom="m">0</dispNs>
+      <dispEw uom="m">0</dispEw>
+      <vertSect uom="m">0</vertSect>
+      <dls uom="rad/m">0</dls>
+      <gravTotalFieldReference uom="m/s2">9.817807424608986</gravTotalFieldReference>
+      <magTotalFieldReference uom="T">5.070108173259739E-05</magTotalFieldReference>
+      <magDipAngleReference uom="rad">1.2508102689130551</magDipAngleReference>
+      <geoModelUsed>HDGM 2025</geoModelUsed>
+      <commonData>
+        <itemState>plan</itemState>
+      </commonData>
+      <extensionNameValue uid="b5b3afb145d7538bafaa2db646e879f5">
+        <name>autoCalcGeoMag</name>
+        <value>True</value>
+        <dataType>boolean</dataType>
+      </extensionNameValue>
+      <extensionNameValue uid="b5b3afb145d7538bafaa2db646e879f5">
+        <name>dTimeGeoMagCalc</name>
+        <value>2022-06-20T04:00:00.0000000Z</value>
+        <dataType>dateTime</dataType>
+      </extensionNameValue>
+      <extensionNameValue uid="b5b3afb145d7538bafaa2db646e879f5">
+        <name>magDeclUsed</name>
+        <value uom="rad">0.008616211958414232</value>
+        <dataType>double</dataType>
+      </extensionNameValue>
+    </trajectoryStation>
+    <trajectoryStation uid="station-3">
+      <typeTrajStation>unknown</typeTrajStation>
+      <md uom="m">2745.1406843381415</md>
+      <tvd uom="m">2670.311133961783</tvd>
+      <incl uom="rad">1.1827355365586818</incl>
+      <azi uom="rad">3.2102756618778385</azi>
+      <dispNs uom="m">-180.49962309829934</dispNs>
+      <dispEw uom="m">-12.416788054039126</dispEw>
+      <vertSect uom="m">176.92951148547937</vertSect>
+      <dls uom="rad/m">0.0034356875039258453</dls>
+      <gravTotalFieldReference uom="m/s2">9.817807424608986</gravTotalFieldReference>
+      <magTotalFieldReference uom="T">5.070108173259739E-05</magTotalFieldReference>
+      <magDipAngleReference uom="rad">1.2508102689130551</magDipAngleReference>
+      <geoModelUsed>HDGM 2025</geoModelUsed>
+      <commonData>
+        <itemState>plan</itemState>
+      </commonData>
+      <extensionNameValue uid="b5b3afb145d7538bafaa2db646e879f5">
+        <name>autoCalcGeoMag</name>
+        <value>True</value>
+        <dataType>boolean</dataType>
+      </extensionNameValue>
+      <extensionNameValue uid="b5b3afb145d7538bafaa2db646e879f5">
+        <name>dTimeGeoMagCalc</name>
+        <value>2022-06-20T04:00:00.0000000Z</value>
+        <dataType>dateTime</dataType>
+      </extensionNameValue>
+      <extensionNameValue uid="b5b3afb145d7538bafaa2db646e879f5">
+        <name>magDeclUsed</name>
+        <value uom="rad">0.008616211958414232</value>
+        <dataType>double</dataType>
+      </extensionNameValue>
+    </trajectoryStation>
+    <trajectoryStation uid="station-4">
+      <typeTrajStation>unknown</typeTrajStation>
+      <md uom="m">2952.73854863512</md>
+      <tvd uom="m">2748.8649427929977</tvd>
+      <incl uom="rad">1.1827355365586818</incl>
+      <azi uom="rad">3.2102756618778385</azi>
+      <dispNs uom="m">-372.20839240993064</dispNs>
+      <dispEw uom="m">-25.604666874965222</dispEw>
+      <vertSect uom="m">364.84646288718545</vertSect>
+      <dls uom="rad/m">0</dls>
+      <gravTotalFieldReference uom="m/s2">9.817807424608986</gravTotalFieldReference>
+      <magTotalFieldReference uom="T">5.070108173259739E-05</magTotalFieldReference>
+      <magDipAngleReference uom="rad">1.2508102689130551</magDipAngleReference>
+      <geoModelUsed>HDGM 2025</geoModelUsed>
+      <commonData>
+        <itemState>plan</itemState>
+      </commonData>
+      <extensionNameValue uid="b5b3afb145d7538bafaa2db646e879f5">
+        <name>autoCalcGeoMag</name>
+        <value>True</value>
+        <dataType>boolean</dataType>
+      </extensionNameValue>
+      <extensionNameValue uid="b5b3afb145d7538bafaa2db646e879f5">
+        <name>dTimeGeoMagCalc</name>
+        <value>2022-06-20T04:00:00.0000000Z</value>
+        <dataType>dateTime</dataType>
+      </extensionNameValue>
+      <extensionNameValue uid="b5b3afb145d7538bafaa2db646e879f5">
+        <name>magDeclUsed</name>
+        <value uom="rad">0.008616211958414232</value>
+        <dataType>double</dataType>
+      </extensionNameValue>
+    </trajectoryStation>
+    <trajectoryStation uid="station-5">
+      <typeTrajStation>unknown</typeTrajStation>
+      <md uom="m">3095.9109576836618</md>
+      <tvd uom="m">2804.1599999999994</tvd>
+      <incl uom="rad">1.1827355365586814</incl>
+      <azi uom="rad">2.677945044588988</azi>
+      <dispNs uom="m">-500.17400681180004</dispNs>
+      <dispEw uom="m">0</dispEw>
+      <vertSect uom="m">495.14700478581835</vertSect>
+      <dls uom="rad/m">0.003435687503925844</dls>
+      <gravTotalFieldReference uom="m/s2">9.817807424608986</gravTotalFieldReference>
+      <magTotalFieldReference uom="T">5.070108173259739E-05</magTotalFieldReference>
+      <magDipAngleReference uom="rad">1.2508102689130551</magDipAngleReference>
+      <geoModelUsed>HDGM 2025</geoModelUsed>
+      <commonData>
+        <itemState>plan</itemState>
+      </commonData>
+      <extensionNameValue uid="b5b3afb145d7538bafaa2db646e879f5">
+        <name>autoCalcGeoMag</name>
+        <value>True</value>
+        <dataType>boolean</dataType>
+      </extensionNameValue>
+      <extensionNameValue uid="b5b3afb145d7538bafaa2db646e879f5">
+        <name>dTimeGeoMagCalc</name>
+        <value>2022-06-20T04:00:00.0000000Z</value>
+        <dataType>dateTime</dataType>
+      </extensionNameValue>
+      <extensionNameValue uid="b5b3afb145d7538bafaa2db646e879f5">
+        <name>magDeclUsed</name>
+        <value uom="rad">0.008616211958414232</value>
+        <dataType>double</dataType>
+      </extensionNameValue>
+    </trajectoryStation>
+    <trajectoryStation uid="station-6">
+      <typeTrajStation>unknown</typeTrajStation>
+      <md uom="m">3337.5637685881375</md>
+      <tvd uom="m">2895.6000000000004</tvd>
+      <incl uom="rad">1.1827355365586814</incl>
+      <azi uom="rad">2.677945044588988</azi>
+      <dispNs uom="m">-700.24360953652</dispNs>
+      <dispEw uom="m">100.03480136236</dispEw>
+      <vertSect uom="m">707.3528639797404</vertSect>
+      <dls uom="rad/m">0</dls>
+      <gravTotalFieldReference uom="m/s2">9.817807424608986</gravTotalFieldReference>
+      <magTotalFieldReference uom="T">5.070108173259739E-05</magTotalFieldReference>
+      <magDipAngleReference uom="rad">1.2508102689130551</magDipAngleReference>
+      <geoModelUsed>HDGM 2025</geoModelUsed>
+      <commonData>
+        <itemState>plan</itemState>
+      </commonData>
+      <extensionNameValue uid="b5b3afb145d7538bafaa2db646e879f5">
+        <name>autoCalcGeoMag</name>
+        <value>True</value>
+        <dataType>boolean</dataType>
+      </extensionNameValue>
+      <extensionNameValue uid="b5b3afb145d7538bafaa2db646e879f5">
+        <name>dTimeGeoMagCalc</name>
+        <value>2022-06-20T04:00:00.0000000Z</value>
+        <dataType>dateTime</dataType>
+      </extensionNameValue>
+      <extensionNameValue uid="b5b3afb145d7538bafaa2db646e879f5">
+        <name>magDeclUsed</name>
+        <value uom="rad">0.008616211958414232</value>
+        <dataType>double</dataType>
+      </extensionNameValue>
+    </trajectoryStation>
+    <commonData>
+      <itemState>plan</itemState>
+      <defaultDatum>KB</defaultDatum>
+    </commonData>
+  </trajectory>
+</trajectorys>

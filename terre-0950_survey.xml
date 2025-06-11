@@ -1,0 +1,191 @@
+<trajectorys xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="1.4.1.1"
+    xmlns="http://www.witsml.org/schemas/1series"
+    xsi:schemaLocation="http://www.witsml.org/schemas/1series http://w3.energistics.org/schema/WITSML_v1.4.1.1_Data_Schema/witsml_v1.4.1.1_data/xsd_schemas/obj_trajectory.xsd">
+    <documentInfo>
+        <documentName>Trajectory</documentName>
+        <fileCreationInformation>
+            <fileCreationDate>2025-06-11T19:33:27.368Z</fileCreationDate>
+            <fileCreator>tmurray2@slb.com</fileCreator>
+        </fileCreationInformation>
+    </documentInfo>
+    <trajectory uidWell="KOGUWI0950"
+        uidWellbore="KOG-UBHI-0950" uid="KOG-survey-001">
+        <nameWell>Terre 0922</nameWell>
+        <nameWellbore>Terre 0992</nameWellbore>
+        <name>Trajectory</name>
+        <gridCorUsed uom="rad">-0.016546971931220567</gridCorUsed>
+        <aziVertSect uom="rad">0.5059540528457434</aziVertSect>
+        <dispNsVertSectOrig uom="m">0</dispNsVertSectOrig>
+        <dispEwVertSectOrig uom="m">0</dispEwVertSectOrig>
+        <aziRef>grid north</aziRef>
+        <trajectoryStation uid="station-1">
+            <typeTrajStation>tie in point</typeTrajStation>
+            <md uom="m">0</md>
+            <tvd uom="m">0</tvd>
+            <incl uom="rad">0</incl>
+            <azi uom="rad">5.850233457378736</azi>
+            <dispNs uom="m">0</dispNs>
+            <dispEw uom="m">0</dispEw>
+            <vertSect uom="m">0</vertSect>
+            <gravTotalFieldReference uom="m/s2">9.817808922101518</gravTotalFieldReference>
+            <magTotalFieldReference uom="T">5.0694289627854536E-05</magTotalFieldReference>
+            <magDipAngleReference uom="rad">1.2507802650510937</magDipAngleReference>
+            <geoModelUsed>HDGM 2024</geoModelUsed>
+            <commonData>
+                <itemState>actual</itemState>
+            </commonData>
+            <extensionNameValue uid="00922a">
+                <name>autoCalcGeoMag</name>
+                <value>True</value>
+                <dataType>boolean</dataType>
+            </extensionNameValue>
+            <extensionNameValue uid="00922a">
+                <name>dTimeGeoMagCalc</name>
+                <value>2022-06-20T04:00:00.0000000Z</value>
+                <dataType>dateTime</dataType>
+            </extensionNameValue>
+            <extensionNameValue uid="00922a">
+                <name>magDeclUsed</name>
+                <value uom="rad">0.011425035485623014</value>
+                <dataType>double</dataType>
+            </extensionNameValue>
+        </trajectoryStation>
+        <trajectoryStation uid="station-2">
+            <typeTrajStation>unknown</typeTrajStation>
+            <md uom="m">2382.287444474508</md>
+            <tvd uom="m">2382.287444474508</tvd>
+            <incl uom="rad">0</incl>
+            <azi uom="rad">5.850233457378736</azi>
+            <dispNs uom="m">0</dispNs>
+            <dispEw uom="m">0</dispEw>
+            <vertSect uom="m">0</vertSect>
+            <dls uom="rad/m">0</dls>
+            <gravTotalFieldReference uom="m/s2">9.817808922101518</gravTotalFieldReference>
+            <magTotalFieldReference uom="T">5.0694289627854536E-05</magTotalFieldReference>
+            <magDipAngleReference uom="rad">1.2507802650510937</magDipAngleReference>
+            <geoModelUsed>HDGM 2024</geoModelUsed>
+            <commonData>
+                <itemState>actual</itemState>
+            </commonData>
+            <extensionNameValue uid="KOG-survey-001">
+                <name>autoCalcGeoMag</name>
+                <value>True</value>
+                <dataType>boolean</dataType>
+            </extensionNameValue>
+            <extensionNameValue uid="KOG-survey-001">
+                <name>dTimeGeoMagCalc</name>
+                <value>2022-06-20T04:00:00.0000000Z</value>
+                <dataType>dateTime</dataType>
+            </extensionNameValue>
+            <extensionNameValue uid="KOG-survey-001">
+                <name>magDeclUsed</name>
+                <value uom="rad">0.011425035485623014</value>
+                <dataType>double</dataType>
+            </extensionNameValue>
+        </trajectoryStation>
+        <trajectoryStation uid="station-3">
+            <typeTrajStation>unknown</typeTrajStation>
+            <md uom="m">2986.4507224839954</md>
+            <tvd uom="m">2937.9054635911352</tvd>
+            <incl uom="rad">0.70297589472716</incl>
+            <azi uom="rad">5.850233457378736</azi>
+            <dispNs uom="m">184.95369889836132</dispNs>
+            <dispEw uom="m">-85.48534052382351</dispEw>
+            <vertSect uom="m">120.35151001788341</vertSect>
+            <dls uom="rad/m">0.0011635528346628857</dls>
+            <gravTotalFieldReference uom="m/s2">9.817808922101518</gravTotalFieldReference>
+            <magTotalFieldReference uom="T">5.0694289627854536E-05</magTotalFieldReference>
+            <magDipAngleReference uom="rad">1.2507802650510937</magDipAngleReference>
+            <geoModelUsed>HDGM 2024</geoModelUsed>
+            <commonData>
+                <itemState>actual</itemState>
+            </commonData>
+            <extensionNameValue uid="KOG-survey-001">
+                <name>autoCalcGeoMag</name>
+                <value>True</value>
+                <dataType>boolean</dataType>
+            </extensionNameValue>
+            <extensionNameValue uid="KOG-survey-001">
+                <name>dTimeGeoMagCalc</name>
+                <value>2022-06-20T04:00:00.0000000Z</value>
+                <dataType>dateTime</dataType>
+            </extensionNameValue>
+            <extensionNameValue uid="KOG-survey-001">
+                <name>magDeclUsed</name>
+                <value uom="rad">0.011425035485623014</value>
+                <dataType>double</dataType>
+            </extensionNameValue>
+        </trajectoryStation>
+        <trajectoryStation uid="station-4">
+            <typeTrajStation>unknown</typeTrajStation>
+            <md uom="m">3320.223467871406</md>
+            <tvd uom="m">3130.7437411495753</tvd>
+            <incl uom="rad">1.3089969389957479</incl>
+            <azi uom="rad">0.8165328802807365</azi>
+            <dispNs uom="m">420.54404905863237</dispNs>
+            <dispEw uom="m">-3.818362936410992</dispEw>
+            <vertSect uom="m">366.00459606274495</vertSect>
+            <dls uom="rad/m">0.0034906585039886666</dls>
+            <gravTotalFieldReference uom="m/s2">9.817808922101518</gravTotalFieldReference>
+            <magTotalFieldReference uom="T">5.0694289627854536E-05</magTotalFieldReference>
+            <magDipAngleReference uom="rad">1.2507802650510937</magDipAngleReference>
+            <geoModelUsed>HDGM 2024</geoModelUsed>
+            <commonData>
+                <itemState>actual</itemState>
+            </commonData>
+            <extensionNameValue uid="KOG-survey-001">
+                <name>autoCalcGeoMag</name>
+                <value>True</value>
+                <dataType>boolean</dataType>
+            </extensionNameValue>
+            <extensionNameValue uid="KOG-survey-001">
+                <name>dTimeGeoMagCalc</name>
+                <value>2022-06-20T04:00:00.0000000Z</value>
+                <dataType>dateTime</dataType>
+            </extensionNameValue>
+            <extensionNameValue uid="KOG-survey-001">
+                <name>magDeclUsed</name>
+                <value uom="rad">0.011425035485623014</value>
+                <dataType>double</dataType>
+            </extensionNameValue>
+        </trajectoryStation>
+        <trajectoryStation uid="station-5">
+            <typeTrajStation>unknown</typeTrajStation>
+            <md uom="m">3378.2062657025754</md>
+            <tvd uom="m">3140.0000000000005</tvd>
+            <incl uom="rad">1.5113950853301767</incl>
+            <azi uom="rad">0.8165328802807381</azi>
+            <dispNs uom="m">459.67009654979137</dispNs>
+            <dispEw uom="m">37.82317327273585</dispEw>
+            <vertSect uom="m">420.4098838133952</vertSect>
+            <dls uom="rad/m">0.003490658503988686</dls>
+            <gravTotalFieldReference uom="m/s2">9.817808922101518</gravTotalFieldReference>
+            <magTotalFieldReference uom="T">5.0694289627854536E-05</magTotalFieldReference>
+            <magDipAngleReference uom="rad">1.2507802650510937</magDipAngleReference>
+            <geoModelUsed>HDGM 2024</geoModelUsed>
+            <commonData>
+                <itemState>actual</itemState>
+            </commonData>
+            <extensionNameValue uid="KOG-survey-001">
+                <name>autoCalcGeoMag</name>
+                <value>True</value>
+                <dataType>boolean</dataType>
+            </extensionNameValue>
+            <extensionNameValue uid="KOG-survey-001">
+                <name>dTimeGeoMagCalc</name>
+                <value>2022-06-20T04:00:00.0000000Z</value>
+                <dataType>dateTime</dataType>
+            </extensionNameValue>
+            <extensionNameValue uid="KOG-survey-001">
+                <name>magDeclUsed</name>
+                <value uom="rad">0.011425035485623014</value>
+                <dataType>double</dataType>
+            </extensionNameValue>
+        </trajectoryStation>
+        <commonData>
+            <itemState>actual</itemState>
+            <defaultDatum>KB</defaultDatum>
+        </commonData>
+    </trajectory>
+</trajectorys>
